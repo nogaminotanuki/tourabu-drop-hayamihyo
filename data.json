@@ -1,0 +1,8007 @@
+{
+  "meta": {
+    "version": "2026-03-24-release",
+    "verifiedAt": "2026年9月10日",
+    "status": "公開版",
+    "notice": "2026年3月24日の変更後データをゲーム内「指南」で確認済みです。"
+  },
+  "eras": [
+    {
+      "id": 1,
+      "name": "維新の記憶"
+    },
+    {
+      "id": 2,
+      "name": "江戸の記憶"
+    },
+    {
+      "id": 3,
+      "name": "織豊の記憶"
+    },
+    {
+      "id": 4,
+      "name": "戦国の記憶"
+    },
+    {
+      "id": 5,
+      "name": "武家の記憶"
+    },
+    {
+      "id": 6,
+      "name": "池田屋の記憶"
+    },
+    {
+      "id": 7,
+      "name": "延享の記憶"
+    },
+    {
+      "id": 8,
+      "name": "青野原の記憶"
+    }
+  ],
+  "battlefields": [
+    {
+      "id": "1-1",
+      "era": 1,
+      "name": "函館",
+      "kebiishiEligible": false
+    },
+    {
+      "id": "1-2",
+      "era": 1,
+      "name": "会津",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "1-3",
+      "era": 1,
+      "name": "宇都宮",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "1-4",
+      "era": 1,
+      "name": "鳥羽",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "2-1",
+      "era": 2,
+      "name": "鳥羽",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "2-2",
+      "era": 2,
+      "name": "江戸",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "2-3",
+      "era": 2,
+      "name": "江戸（元禄）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "2-4",
+      "era": 2,
+      "name": "大阪（大阪冬の陣）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "3-1",
+      "era": 3,
+      "name": "関ヶ原",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "3-2",
+      "era": 3,
+      "name": "本能寺",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "3-3",
+      "era": 3,
+      "name": "越前",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "3-4",
+      "era": 3,
+      "name": "安土",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "4-1",
+      "era": 4,
+      "name": "長篠",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "4-2",
+      "era": 4,
+      "name": "三方ヶ原",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "4-3",
+      "era": 4,
+      "name": "桶狭間",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "4-4",
+      "era": 4,
+      "name": "京都（西陣）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "5-1",
+      "era": 5,
+      "name": "鎌倉（元弘の乱）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "5-2",
+      "era": 5,
+      "name": "博多湾（元寇）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "5-3",
+      "era": 5,
+      "name": "墨俣（承久の乱）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "5-4",
+      "era": 5,
+      "name": "厚樫山（阿津賀志山の戦い）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "6-1",
+      "era": 6,
+      "name": "京都（市中）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "6-2",
+      "era": 6,
+      "name": "京都（三条大橋）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "6-3",
+      "era": 6,
+      "name": "京都（池田屋二階）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "6-4",
+      "era": 6,
+      "name": "京都（池田屋一階）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "7-1",
+      "era": 7,
+      "name": "江戸（新橋）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "7-2",
+      "era": 7,
+      "name": "江戸（白金台）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "7-3",
+      "era": 7,
+      "name": "江戸（江戸城下）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "7-4",
+      "era": 7,
+      "name": "江戸（江戸城内）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "8-1",
+      "era": 8,
+      "name": "京都（阿弥陀ヶ峰）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "8-2",
+      "era": 8,
+      "name": "信濃（上田城）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "8-3",
+      "era": 8,
+      "name": "美濃（青野原）",
+      "kebiishiEligible": true
+    },
+    {
+      "id": "8-4",
+      "era": 8,
+      "name": "京都（五条）",
+      "kebiishiEligible": true
+    }
+  ],
+  "touken": [
+    {
+      "id": "t003",
+      "album": 3,
+      "name": "三日月宗近",
+      "type": "太刀"
+    },
+    {
+      "id": "t005",
+      "album": 5,
+      "name": "小狐丸",
+      "type": "太刀"
+    },
+    {
+      "id": "t007",
+      "album": 7,
+      "name": "石切丸",
+      "type": "大太刀"
+    },
+    {
+      "id": "t009",
+      "album": 9,
+      "name": "岩融",
+      "type": "薙刀"
+    },
+    {
+      "id": "t011",
+      "album": 11,
+      "name": "今剣",
+      "type": "短刀"
+    },
+    {
+      "id": "t013",
+      "album": 13,
+      "name": "大典太光世",
+      "type": "太刀"
+    },
+    {
+      "id": "t015",
+      "album": 15,
+      "name": "ソハヤノツルキ",
+      "type": "太刀"
+    },
+    {
+      "id": "t017",
+      "album": 17,
+      "name": "数珠丸恒次",
+      "type": "太刀"
+    },
+    {
+      "id": "t019",
+      "album": 19,
+      "name": "にっかり青江",
+      "type": "脇差"
+    },
+    {
+      "id": "t021",
+      "album": 21,
+      "name": "鬼丸国綱",
+      "type": "太刀"
+    },
+    {
+      "id": "t023",
+      "album": 23,
+      "name": "鳴狐",
+      "type": "打刀"
+    },
+    {
+      "id": "t025",
+      "album": 25,
+      "name": "一期一振",
+      "type": "太刀"
+    },
+    {
+      "id": "t027",
+      "album": 27,
+      "name": "鯰尾藤四郎",
+      "type": "脇差"
+    },
+    {
+      "id": "t029",
+      "album": 29,
+      "name": "骨喰藤四郎",
+      "type": "脇差"
+    },
+    {
+      "id": "t031",
+      "album": 31,
+      "name": "平野藤四郎",
+      "type": "短刀"
+    },
+    {
+      "id": "t033",
+      "album": 33,
+      "name": "厚藤四郎",
+      "type": "短刀"
+    },
+    {
+      "id": "t035",
+      "album": 35,
+      "name": "後藤藤四郎",
+      "type": "短刀"
+    },
+    {
+      "id": "t037",
+      "album": 37,
+      "name": "信濃藤四郎",
+      "type": "短刀"
+    },
+    {
+      "id": "t039",
+      "album": 39,
+      "name": "前田藤四郎",
+      "type": "短刀"
+    },
+    {
+      "id": "t041",
+      "album": 41,
+      "name": "秋田藤四郎",
+      "type": "短刀"
+    },
+    {
+      "id": "t043",
+      "album": 43,
+      "name": "博多藤四郎",
+      "type": "短刀"
+    },
+    {
+      "id": "t045",
+      "album": 45,
+      "name": "乱藤四郎",
+      "type": "短刀"
+    },
+    {
+      "id": "t047",
+      "album": 47,
+      "name": "五虎退",
+      "type": "短刀"
+    },
+    {
+      "id": "t049",
+      "album": 49,
+      "name": "薬研藤四郎",
+      "type": "短刀"
+    },
+    {
+      "id": "t051",
+      "album": 51,
+      "name": "包丁藤四郎",
+      "type": "短刀"
+    },
+    {
+      "id": "t053",
+      "album": 53,
+      "name": "大包平",
+      "type": "太刀"
+    },
+    {
+      "id": "t055",
+      "album": 55,
+      "name": "鶯丸",
+      "type": "太刀"
+    },
+    {
+      "id": "t057",
+      "album": 57,
+      "name": "明石国行",
+      "type": "太刀"
+    },
+    {
+      "id": "t059",
+      "album": 59,
+      "name": "蛍丸",
+      "type": "大太刀"
+    },
+    {
+      "id": "t061",
+      "album": 61,
+      "name": "愛染国俊",
+      "type": "短刀"
+    },
+    {
+      "id": "t063",
+      "album": 63,
+      "name": "千子村正",
+      "type": "打刀"
+    },
+    {
+      "id": "t065",
+      "album": 65,
+      "name": "蜻蛉切",
+      "type": "槍"
+    },
+    {
+      "id": "t067",
+      "album": 67,
+      "name": "物吉貞宗",
+      "type": "脇差"
+    },
+    {
+      "id": "t069",
+      "album": 69,
+      "name": "太鼓鐘貞宗",
+      "type": "短刀"
+    },
+    {
+      "id": "t071",
+      "album": 71,
+      "name": "亀甲貞宗",
+      "type": "打刀"
+    },
+    {
+      "id": "t073",
+      "album": 73,
+      "name": "燭台切光忠",
+      "type": "太刀"
+    },
+    {
+      "id": "t075",
+      "album": 75,
+      "name": "大般若長光",
+      "type": "太刀"
+    },
+    {
+      "id": "t077",
+      "album": 77,
+      "name": "小竜景光",
+      "type": "太刀"
+    },
+    {
+      "id": "t079",
+      "album": 79,
+      "name": "江雪左文字",
+      "type": "太刀"
+    },
+    {
+      "id": "t081",
+      "album": 81,
+      "name": "宗三左文字",
+      "type": "打刀"
+    },
+    {
+      "id": "t083",
+      "album": 83,
+      "name": "小夜左文字",
+      "type": "短刀"
+    },
+    {
+      "id": "t085",
+      "album": 85,
+      "name": "加州清光",
+      "type": "打刀"
+    },
+    {
+      "id": "t087",
+      "album": 87,
+      "name": "大和守安定",
+      "type": "打刀"
+    },
+    {
+      "id": "t089",
+      "album": 89,
+      "name": "歌仙兼定",
+      "type": "打刀"
+    },
+    {
+      "id": "t091",
+      "album": 91,
+      "name": "和泉守兼定",
+      "type": "打刀"
+    },
+    {
+      "id": "t093",
+      "album": 93,
+      "name": "陸奥守吉行",
+      "type": "打刀"
+    },
+    {
+      "id": "t095",
+      "album": 95,
+      "name": "山姥切国広",
+      "type": "打刀"
+    },
+    {
+      "id": "t097",
+      "album": 97,
+      "name": "山伏国広",
+      "type": "太刀"
+    },
+    {
+      "id": "t099",
+      "album": 99,
+      "name": "堀川国広",
+      "type": "脇差"
+    },
+    {
+      "id": "t101",
+      "album": 101,
+      "name": "蜂須賀虎徹",
+      "type": "打刀"
+    },
+    {
+      "id": "t103",
+      "album": 103,
+      "name": "浦島虎徹",
+      "type": "脇差"
+    },
+    {
+      "id": "t105",
+      "album": 105,
+      "name": "長曽祢虎徹",
+      "type": "打刀"
+    },
+    {
+      "id": "t107",
+      "album": 107,
+      "name": "髭切",
+      "type": "太刀"
+    },
+    {
+      "id": "t112",
+      "album": 112,
+      "name": "膝丸",
+      "type": "太刀"
+    },
+    {
+      "id": "t116",
+      "album": 116,
+      "name": "大倶利伽羅",
+      "type": "打刀"
+    },
+    {
+      "id": "t118",
+      "album": 118,
+      "name": "へし切長谷部",
+      "type": "打刀"
+    },
+    {
+      "id": "t120",
+      "album": 120,
+      "name": "不動行光",
+      "type": "短刀"
+    },
+    {
+      "id": "t122",
+      "album": 122,
+      "name": "獅子王",
+      "type": "太刀"
+    },
+    {
+      "id": "t124",
+      "album": 124,
+      "name": "小烏丸",
+      "type": "太刀"
+    },
+    {
+      "id": "t128",
+      "album": 128,
+      "name": "同田貫正国",
+      "type": "打刀"
+    },
+    {
+      "id": "t130",
+      "album": 130,
+      "name": "鶴丸国永",
+      "type": "太刀"
+    },
+    {
+      "id": "t132",
+      "album": 132,
+      "name": "太郎太刀",
+      "type": "大太刀"
+    },
+    {
+      "id": "t134",
+      "album": 134,
+      "name": "次郎太刀",
+      "type": "大太刀"
+    },
+    {
+      "id": "t136",
+      "album": 136,
+      "name": "日本号",
+      "type": "槍"
+    },
+    {
+      "id": "t138",
+      "album": 138,
+      "name": "御手杵",
+      "type": "槍"
+    },
+    {
+      "id": "t140",
+      "album": 140,
+      "name": "巴形薙刀",
+      "type": "薙刀"
+    },
+    {
+      "id": "t142",
+      "album": 142,
+      "name": "毛利藤四郎",
+      "type": "短刀"
+    },
+    {
+      "id": "t144",
+      "album": 144,
+      "name": "篭手切江",
+      "type": "脇差"
+    },
+    {
+      "id": "t146",
+      "album": 146,
+      "name": "謙信景光",
+      "type": "短刀"
+    },
+    {
+      "id": "t148",
+      "album": 148,
+      "name": "小豆長光",
+      "type": "太刀"
+    },
+    {
+      "id": "t150",
+      "album": 150,
+      "name": "日向正宗",
+      "type": "短刀"
+    },
+    {
+      "id": "t152",
+      "album": 152,
+      "name": "静形薙刀",
+      "type": "薙刀"
+    },
+    {
+      "id": "t154",
+      "album": 154,
+      "name": "南泉一文字",
+      "type": "打刀"
+    },
+    {
+      "id": "t156",
+      "album": 156,
+      "name": "千代金丸",
+      "type": "太刀"
+    },
+    {
+      "id": "t160",
+      "album": 160,
+      "name": "豊前江",
+      "type": "打刀"
+    },
+    {
+      "id": "t162",
+      "album": 162,
+      "name": "祢々切丸",
+      "type": "大太刀"
+    },
+    {
+      "id": "t170",
+      "album": 170,
+      "name": "北谷菜切",
+      "type": "短刀"
+    },
+    {
+      "id": "t172",
+      "album": 172,
+      "name": "桑名江",
+      "type": "打刀"
+    },
+    {
+      "id": "t178",
+      "album": 178,
+      "name": "松井江",
+      "type": "打刀"
+    },
+    {
+      "id": "t180",
+      "album": 180,
+      "name": "山鳥毛",
+      "type": "太刀"
+    },
+    {
+      "id": "t186",
+      "album": 186,
+      "name": "治金丸",
+      "type": "脇差"
+    },
+    {
+      "id": "t188",
+      "album": 188,
+      "name": "日光一文字",
+      "type": "太刀"
+    },
+    {
+      "id": "t190",
+      "album": 190,
+      "name": "太閤左文字",
+      "type": "短刀"
+    },
+    {
+      "id": "t194",
+      "album": 194,
+      "name": "大千鳥十文字槍",
+      "type": "槍"
+    },
+    {
+      "id": "t196",
+      "album": 196,
+      "name": "泛塵",
+      "type": "脇差"
+    },
+    {
+      "id": "t202",
+      "album": 202,
+      "name": "姫鶴一文字",
+      "type": "太刀"
+    }
+  ],
+  "drops": [
+    {
+      "battlefieldId": "1-1",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-1",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-1",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-1",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-1",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-1",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-1",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-1",
+      "toukenId": "t085",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-1",
+      "toukenId": "t089",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-1",
+      "toukenId": "t093",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-1",
+      "toukenId": "t095",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-1",
+      "toukenId": "t101",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t019",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t027",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t029",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t085",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t087",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t089",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t093",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t095",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t099",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t101",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-2",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t019",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t027",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t029",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t085",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t087",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t089",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t093",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t095",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t099",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t101",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-3",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t019",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t027",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t029",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t085",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t087",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t089",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t093",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t095",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t099",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t101",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "1-4",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t023",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t035",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t037",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t081",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t087",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t099",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t132",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-1",
+      "toukenId": "t134",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t023",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t035",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t037",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t081",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t087",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t099",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t144",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-2",
+      "toukenId": "t150",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t023",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t035",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t037",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t053",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t081",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t087",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t099",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-3",
+      "toukenId": "t144",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t023",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t035",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t037",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t081",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t087",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t091",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t099",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t142",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "2-4",
+      "toukenId": "t196",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t023",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t081",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t087",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t091",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t097",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t120",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t122",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-1",
+      "toukenId": "t160",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t023",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t071",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t073",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t081",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t087",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t091",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t097",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t120",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t122",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-2",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t023",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t073",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t081",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t087",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t091",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t097",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t120",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t122",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t146",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-3",
+      "toukenId": "t148",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t023",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t025",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t073",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t081",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t087",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t091",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t097",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t120",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t122",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "3-4",
+      "toukenId": "t190",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t023",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t073",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t075",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t081",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t087",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t091",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t097",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t120",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t122",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t138",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-1",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t023",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t065",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t067",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t073",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t081",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t087",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t091",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t097",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t120",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t122",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t138",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-2",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t023",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t065",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t073",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t079",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t081",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t087",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t091",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t097",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t120",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t122",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t138",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-3",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t003",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t005",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t023",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t065",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t073",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t081",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t087",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t091",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t097",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t120",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t122",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t138",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "4-4",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t005",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t007",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t021",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t023",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t065",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t073",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t081",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t087",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t091",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t097",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t107",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t112",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t120",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t122",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t124",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t138",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-1",
+      "toukenId": "t162",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t005",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t023",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t065",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t073",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t081",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t087",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t091",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t097",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t120",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t122",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t132",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t134",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t136",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t138",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-2",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t005",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t023",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t031",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t059",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t065",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t071",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t073",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t081",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t083",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t087",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t091",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t097",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t107",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t112",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t120",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t122",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t138",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-3",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t003",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t005",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t009",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t023",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t039",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t041",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t045",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t047",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t049",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t061",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t065",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t071",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t073",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t081",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t087",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t091",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t097",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t120",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t122",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t138",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t140",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "5-4",
+      "toukenId": "t152",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t005",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t007",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t009",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t023",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t025",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t055",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t059",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t065",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t071",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t073",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t079",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t081",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t087",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t091",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t097",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t120",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t122",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t130",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t132",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t134",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t138",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-1",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t005",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t007",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t009",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t023",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t025",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t055",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t057",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t065",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t071",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t073",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t079",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t081",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t087",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t091",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t097",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t120",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t122",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t130",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t132",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t134",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t138",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t140",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-2",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t005",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t007",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t009",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t023",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t025",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t055",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t059",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t065",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t071",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t073",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t079",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t081",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t087",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t091",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t097",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t105",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t120",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t122",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t130",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t132",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t134",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t138",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t140",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-3",
+      "toukenId": "t152",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t005",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t007",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t009",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t023",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t025",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t055",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t059",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t063",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t065",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t071",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t073",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t079",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t081",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t087",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t091",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t097",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t105",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t116",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t120",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t122",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t128",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t130",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t132",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t134",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t136",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t138",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t140",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t152",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t154",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "6-4",
+      "toukenId": "t162",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t003",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t005",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t007",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t009",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t013",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t023",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t025",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t055",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t057",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t059",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t063",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t065",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t067",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t071",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t073",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t079",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t081",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t087",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t091",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t097",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t103",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t105",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t116",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t120",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t122",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t128",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t130",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t132",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t134",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t138",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t140",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t152",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-1",
+      "toukenId": "t162",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t003",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t005",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t007",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t009",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t011",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t023",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t025",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t033",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t055",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t057",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t059",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t063",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t065",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t067",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t069",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t071",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t073",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t079",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t081",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t087",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t091",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t097",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t103",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t105",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t116",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t120",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t122",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t128",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t130",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t132",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t134",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t138",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t140",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t144",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t152",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-2",
+      "toukenId": "t162",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t003",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t005",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t007",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t009",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t013",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t015",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t019",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t023",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t025",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t053",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t055",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t057",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t059",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t063",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t065",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t067",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t069",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t071",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t073",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t079",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t081",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t087",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t091",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t097",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t103",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t105",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t116",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t118",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t120",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t124",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t128",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t130",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t132",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t134",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t138",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t140",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t142",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t144",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t152",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t162",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-3",
+      "toukenId": "t188",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t003",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t005",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t007",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t009",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t015",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t017",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t025",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t027",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t029",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t055",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t057",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t059",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t063",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t065",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t067",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t069",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t071",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t073",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t079",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t085",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t087",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t089",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t091",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t093",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t095",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t097",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t099",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t101",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t103",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t105",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t116",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t118",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t120",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t130",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t132",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t134",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t138",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t140",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t144",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t146",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t148",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t152",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "7-4",
+      "toukenId": "t162",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t003",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t005",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t007",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t009",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t015",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t025",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t055",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t057",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t059",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t065",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t067",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t069",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t071",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t073",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t077",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t079",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t091",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t097",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t103",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t105",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t116",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t118",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t120",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t130",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t132",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t134",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t136",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t138",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t140",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t144",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t146",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t148",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t152",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t156",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t162",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t170",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t186",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t190",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-1",
+      "toukenId": "t202",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t003",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t005",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t007",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t009",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t015",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t025",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t055",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t057",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t059",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t065",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t067",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t069",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t071",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t073",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t079",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t091",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t097",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t103",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t105",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t116",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t118",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t120",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t130",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t132",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t134",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t136",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t138",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t140",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t144",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t146",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t148",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t150",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t152",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t156",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t162",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t170",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t186",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t190",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-2",
+      "toukenId": "t194",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t003",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t005",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t007",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t009",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t015",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t025",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t055",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t057",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t059",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t065",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t067",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t069",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t071",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t073",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t079",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t091",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t097",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t103",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t105",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t116",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t118",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t130",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t132",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t134",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t136",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t138",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t140",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t144",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t146",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t148",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t152",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t154",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t156",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t160",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t162",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t170",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t178",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t186",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-3",
+      "toukenId": "t190",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t003",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t005",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t009",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t015",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t025",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t035",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t037",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t043",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t051",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t055",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t057",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t059",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t065",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t067",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t069",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t071",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t073",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t079",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t091",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t103",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t105",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t116",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t118",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t124",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t130",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t132",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t134",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t136",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t138",
+      "normal": true,
+      "boss": false
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t140",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t144",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t146",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t148",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t152",
+      "normal": true,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t156",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t160",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t162",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t170",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t172",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t180",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t186",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t188",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t190",
+      "normal": false,
+      "boss": true
+    },
+    {
+      "battlefieldId": "8-4",
+      "toukenId": "t196",
+      "normal": false,
+      "boss": true
+    }
+  ],
+  "kebiishiToukenIds": [
+    "t007",
+    "t009",
+    "t011",
+    "t019",
+    "t023",
+    "t027",
+    "t029",
+    "t033",
+    "t035",
+    "t037",
+    "t057",
+    "t063",
+    "t065",
+    "t071",
+    "t073",
+    "t081",
+    "t085",
+    "t087",
+    "t089",
+    "t091",
+    "t093",
+    "t095",
+    "t097",
+    "t099",
+    "t101",
+    "t107",
+    "t112",
+    "t116",
+    "t118",
+    "t122",
+    "t128",
+    "t132",
+    "t134",
+    "t138",
+    "t142",
+    "t194",
+    "t196"
+  ]
+}
