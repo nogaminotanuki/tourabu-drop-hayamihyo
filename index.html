@@ -5,9 +5,14 @@
 <nav class="tabs" aria-label="検索方法"><button class="tab active" type="button" data-tab="battle">合戦場から探す</button><button class="tab" type="button" data-tab="touken">刀剣男士から探す</button></nav>
 <section id="battle" class="panel active"><div class="box"><span class="label">時代</span><div class="era-buttons" id="eraButtons"></div></div>
 <div class="box"><div class="field"><label class="label" for="battlefieldSelect">合戦場</label><select id="battlefieldSelect" disabled><option>先に時代を選択してください</option></select></div>
-<div class="field"><label class="label" for="battleType">刀種</label><select id="battleType" disabled><option value="">すべての刀種</option></select></div></div><div id="battleResult"></div></section>
-<section id="touken" class="panel"><div class="box"><div class="field"><label class="label" for="toukenType">刀種</label><select id="toukenType"></select></div>
-<div class="field"><label class="label" for="toukenSelect">刀剣男士</label><select id="toukenSelect"></select></div></div><div id="toukenResult"></div></section>
+<div class="field"><label class="label" for="battleType">刀種</label><select id="battleType" disabled><option value="">すべての刀種</option></select></div>
+<div class="field"><label class="label" for="battleDropFilter">入手場所</label><select id="battleDropFilter"><option value="">通常・ボスすべて</option><option value="normal">通常マスのみ</option><option value="boss">ボスマスのみ</option></select></div>
+<div class="reset-row"><button id="battleReset" class="reset-button" type="button">条件をリセット</button></div></div><div id="battleResult"></div></section>
+<section id="touken" class="panel"><div class="box"><div class="field"><label class="label" for="toukenSearch">刀剣男士名で絞り込み</label><input id="toukenSearch" type="search" placeholder="名前の一部を入力" autocomplete="off"><div id="toukenSearchStatus" class="field-note" aria-live="polite"></div></div>
+<div class="field"><label class="label" for="toukenType">刀種</label><select id="toukenType"></select></div>
+<div class="field"><label class="label" for="toukenSelect">刀剣男士</label><select id="toukenSelect"></select></div>
+<div class="field"><label class="label" for="toukenDropFilter">入手場所</label><select id="toukenDropFilter"><option value="">通常・ボスすべて</option><option value="normal">通常マスのみ</option><option value="boss">ボスマスのみ</option></select></div>
+<div class="reset-row"><button id="toukenReset" class="reset-button" type="button">条件をリセット</button></div></div><div id="toukenResult"></div></section>
 <footer><div id="verifiedAt">データ確認：2026年9月10日</div><div>非公式のファンメイドツールです。『刀剣乱舞ONLINE』公式とは関係ありません。</div>
 <div>ゲーム内「指南」を確認。公式の仕様変更により内容が変わる場合があります。ドロップ率は掲載していません。</div>
 <div>出典：<a href="https://www.toukenranbu.jp/game-topics/4798/" target="_blank" rel="noopener">2026年3月24日 公式変更告知</a> /
