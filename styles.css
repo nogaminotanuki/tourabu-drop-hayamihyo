@@ -178,7 +178,9 @@ select:disabled{background:#f1efec;color:#888}
   background:var(--area-bg);
   border:1px solid var(--area-border);
   color:var(--area-text);
+  flex:0 0 auto;
   line-height:1;
+  white-space:nowrap;
 }
 
 .area-panel{
