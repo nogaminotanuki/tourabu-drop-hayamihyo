@@ -40,8 +40,12 @@ body{
   font-size:16px;
   line-height:1.55;
 }
-button,select{font:inherit}
+button,select,input{font:inherit}
 button{touch-action:manipulation}
+button:focus-visible,select:focus-visible,input:focus-visible{
+  outline:3px solid #2f6fa3;
+  outline-offset:2px;
+}
 
 .wrap{max-width:1180px;margin:0 auto;padding:18px 14px 48px}
 header{padding:4px 2px 16px}
@@ -100,7 +104,7 @@ h1{font-size:1.65rem;line-height:1.25;margin:0 0 7px}
 }
 .field+.field{margin-top:13px}
 
-select{
+select,input[type="search"]{
   width:100%;
   min-height:50px;
   border:1px solid #c9c4bc;
@@ -111,7 +115,28 @@ select{
   font-size:16px;
   font-weight:750;
 }
+input[type="search"]::placeholder{color:#757575;font-weight:650}
 select:disabled{background:#f1efec;color:#888}
+.field-note{
+  min-height:22px;
+  margin-top:5px;
+  color:var(--muted);
+  font-size:13px;
+  font-weight:700;
+}
+.reset-row{display:flex;justify-content:flex-end;margin-top:15px}
+.reset-button{
+  min-height:44px;
+  border:1px solid #aaa39a;
+  border-radius:11px;
+  background:#fff;
+  color:#49433d;
+  padding:8px 15px;
+  font-size:14px;
+  font-weight:900;
+  cursor:pointer;
+}
+.reset-button:hover{background:#f1efec}
 .battlefield-select[class*="area-"]{
   background:var(--area-bg);
   border-color:var(--area-border);
@@ -294,4 +319,5 @@ footer div+div{margin-top:4px}
   .card{padding:9px}
   .name{font-size:14px}
   .type{font-size:14px}
+  .reset-button{width:100%}
 }
