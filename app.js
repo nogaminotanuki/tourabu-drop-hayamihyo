@@ -36,6 +36,7 @@ const bfById=id=>state.data.battlefields.find(x=>x.id===id);
 const typeOrder=t=>["短刀","脇差","打刀","太刀","大太刀","槍","薙刀","剣"].indexOf(t);
 const areaNo=id=>Number(String(id).split("-")[0]);
 const areaClass=id=>`area-${areaNo(id)}`;
+const normalizeQuery=value=>value.normalize("NFKC").replace(/[\s　]+/g,"").toLowerCase();
 
 function optionStyle(area){
   const c=AREA_COLORS[area];
@@ -95,6 +96,21 @@ $("#battlefieldSelect").addEventListener("change",()=>{
 });
 
 $("#battleType").addEventListener("change",renderBattle);
+$("#battleDropFilter").addEventListener("change",renderBattle);
+$("#battleReset").addEventListener("click",resetBattle);
+
+function resetBattle(){
+  state.era=null;
+  document.querySelectorAll(".era").forEach(x=>x.classList.remove("active"));
+  const battlefield=$("#battlefieldSelect");
+  battlefield.disabled=true;
+  battlefield.innerHTML="<option>先に時代を選択してください</option>";
+  applyBattlefieldSelectColor("");
+  $("#battleType").disabled=true;
+  $("#battleType").innerHTML='<option value="">すべての刀種</option>';
+  $("#battleDropFilter").value="";
+  $("#battleResult").innerHTML="";
+}
 
 function renderBattle(){
   const id=$("#battlefieldSelect").value;
@@ -102,6 +118,7 @@ function renderBattle(){
 
   const bf=bfById(id);
   const filter=$("#battleType").value;
+  const dropFilter=$("#battleDropFilter").value;
   const cls=areaClass(id);
 
   let rows=state.data.drops
@@ -109,6 +126,7 @@ function renderBattle(){
     .map(x=>({...x,t:toukenById(x.toukenId)}));
 
   if(filter) rows=rows.filter(x=>x.t.type===filter);
+  if(dropFilter) rows=rows.filter(x=>x[dropFilter]);
   rows.sort((a,b)=>a.t.album-b.t.album);
 
   const kebiishi=state.data.kebiishiToukenIds.map(toukenById).sort((a,b)=>a.album-b.album);
@@ -178,18 +196,46 @@ function buildToukenFilters(){
   $("#toukenType").innerHTML='<option value="">すべての刀種</option>'+types.map(x=>`<option>${x}</option>`).join("");
   refreshToukenSelect();
   $("#toukenType").addEventListener("change",refreshToukenSelect);
+  $("#toukenSearch").addEventListener("input",refreshToukenSelect);
   $("#toukenSelect").addEventListener("change",renderTouken);
+  $("#toukenDropFilter").addEventListener("change",renderTouken);
+  $("#toukenReset").addEventListener("click",resetTouken);
 }
 
 function refreshToukenSelect(){
   const type=$("#toukenType").value;
+  const query=normalizeQuery($("#toukenSearch").value);
+  const select=$("#toukenSelect");
+  const current=select.value;
   const list=state.data.touken
     .filter(x=>!type||x.type===type)
+    .filter(x=>!query||normalizeQuery(x.name).includes(query))
     .sort((a,b)=>a.album-b.album);
 
-  $("#toukenSelect").innerHTML='<option value="">刀剣男士を選択</option>'+
-    list.map(t=>`<option value="${t.id}">${t.name}</option>`).join("");
-  $("#toukenResult").innerHTML="";
+  select.disabled=list.length===0;
+  select.innerHTML=list.length
+    ? '<option value="">刀剣男士を選択</option>'+list.map(t=>`<option value="${t.id}">${t.name}</option>`).join("")
+    : '<option value="">一致する刀剣男士はいません</option>';
+
+  const keepCurrent=list.some(t=>t.id===current);
+  if(keepCurrent){
+    select.value=current;
+    renderTouken();
+  }else{
+    $("#toukenResult").innerHTML="";
+  }
+
+  $("#toukenSearchStatus").textContent=(query||type)
+    ? `${list.length}振が候補です`
+    : `${list.length}振から選択できます`;
+}
+
+function resetTouken(){
+  $("#toukenSearch").value="";
+  $("#toukenType").value="";
+  $("#toukenDropFilter").value="";
+  $("#toukenSelect").value="";
+  refreshToukenSelect();
 }
 
 function renderTouken(){
@@ -200,10 +246,13 @@ function renderTouken(){
   }
 
   const t=toukenById(id);
-  const rows=state.data.drops
+  const dropFilter=$("#toukenDropFilter").value;
+  let rows=state.data.drops
     .filter(x=>x.toukenId===id)
     .map(x=>({...x,b:bfById(x.battlefieldId)}))
     .sort((a,b)=>a.b.id.localeCompare(b.b.id,undefined,{numeric:true}));
+
+  if(dropFilter) rows=rows.filter(x=>x[dropFilter]);
 
   const isKebiishi=state.data.kebiishiToukenIds.includes(id);
 
